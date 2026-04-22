@@ -9,15 +9,17 @@ import java.util.Scanner;
 public class Ej_1 {
 
 	private static Scanner teclado = new Scanner(System.in);
-	
+	/*
+	Comentario
+	*/
 	public static void main(String[] args) {
 		int[] numeros = new int[20];
 		
-		for(int i =0;i<numeros.length;i++) {
+		for(int i =0;i<numeros.length;i++) {//Comentario
 			System.out.print("Introduce un número:");
 			numeros[i]= Integer.parseInt(teclado.nextLine());
 		}
-		
+		/**JavaDoc*/
 		for(int i=numeros.length;i>0;i--) {
 			System.out.println(numeros[i-1]);
 		}
